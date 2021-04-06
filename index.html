@@ -68,6 +68,29 @@
 			object-position: 50% 100%;
 			width: 8em;
 		}
+		form {
+  margin: 1em;
+  position: relative;
+}
+
+form input[type="search"] {
+  background-color: rgba(255, 255, 255, 0.95);
+  border: none;
+  box-sizing: border-box;
+  font-weight: bold;
+  font: inherit;
+  width: 100%;
+}
+
+form label {
+  color: #1d81b2;
+  left: -1em;
+  position: absolute;
+}
+
+form:focus-within input::placeholder {
+  opacity: 0;
+}
 	</style>
 </head>
 <body>
@@ -101,5 +124,13 @@
 		</ul>
 	</nav>
 	<img src="oikagain.jpg">
+	<form action="https://duckduckgo.com/" method="GET">
+  <label for="q">></label>
+  <input autofocus
+         id="q"
+         name="q"
+         type="search"
+         placeholder="search with duckduckgo...">
+</form>
 </body>
 </html>
