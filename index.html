@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> New tab</title>
+	
+	
+	
+	<style>
+		@font-face {
+   font-family: LanaPixel;
+   src: url(LanaPixel.ttf);
+}
+
+* {
+   font-family: LanaPixel;
+}
+		html {
+			align-items: center;
+			color: #202428;
+			display: flex;
+			font: 22px "LanaPixel", monospace;
+			height: 100%;
+			justify-content: center;
+			margin: 0;
+		}
+		body {
+			display: flex;
+			margin: 1em;
+			padding: 1em;
+			background-color: #eef3f3;
+			}
+		h1 {
+			font-size: 2em;
+			grid-column: 1 / -1;
+			margin: 0;
+			text-align: center:
+		}
+		a {
+			color: inherit;
+			text-decoration: none;
+		}
+		a:focus,
+		a:hover {
+			color: #8dd5d9;
+		}
+		nav {
+			display: grid;
+			grid-row-gap: 1em;
+			grid-template-columns: 1fr 1fr;
+			margin: 0 lem;
+			min-width: 24em;
+			padding: 1em 0;
+		}
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			white-space: nowrap;
+		}
+		li:first-child {
+			font-weight: bold;
+			line-height: 2em;
+		}
+		img {
+			border: 2px solid #202428;
+			height: auto;
+			object-fit: cover;
+			object-position: 50% 100%;
+			width: 8em;
+		}
+	form {
+  margin: 1em;
+  position: relative;
+}
+
+form input[type="search"] {
+  background-color: rgba(255, 255, 255, 0.95);
+  border: none;
+  box-sizing: border-box;
+  font-weight: bold;
+  font: inherit;
+  width: 100%;
+}
+
+form label {
+  color: #1d81b2;
+  left: -1em;
+  position: absolute;
+}
+
+form:focus-within input::placeholder {
+  opacity: 0;
+}
+
+.oof {
+  width:100%;
+
+     position:fixed;
+
+     bottom:160px;
+
+     text-align:center;
+	 width: 682px;
+}
+	</style>
+</head>
+<body>
+	<nav>
+		<h1>the mysteries of life<br>with tim and moby</h1>
+		<ul>
+			<li>social media</li>
+			<li><a href="https://reddit.com/">reddit</a></li>
+			<li><a href="https://tumblr.com/">tumblr</a></li>
+			<li><a href="https://twitter.com/">twitter</a></li>
+		</ul>
+		
+		<ul>
+      <li>education</li>
+	  <li><a href="https://brainpop.com">brainpop</a></li>
+      <li><a href="https://office.com">office</a></li>
+      <li><a href="https://schoology.com/">schoology</a></li>
+    </ul>
+		
+		<ul>
+			<li>watch</li>
+			<li><a href="https://crunchyroll.com">crunchyroll</a></li>
+			<li><a href="https://netflix.com">netflix</a></li>
+			<li><a href="https://youtube.com">youtube</a></li>
+		</ul>
+		<ul>
+		<li>misc</li>
+			<li><a href="https://archiveofourown.org/">ao3</a></li>
+			<li><a href="https://brainpop.fandom.com/wiki/BrainPOP">brainpop wiki</a></li>
+			<li><a href="https://reddit.com/r/196">r/196</a></li>
+		</ul>
+	</nav>
+	<img src="oikagain.jpg">
+	<div class="oof">
+	<form action="https://google.com" method="GET">
+  <input autofocus
+         name="q"
+         type="search"
+         placeholder="send tim and moby a letter...">
+	</div>
+</form>
+</body>
+</html>
