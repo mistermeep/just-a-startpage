@@ -102,7 +102,7 @@ form:focus-within input::placeholder {
      text-align:center;
 	 width: 682px;
 }
-.quote {
+#quoteDisplay {
 position:fixed;
 
      bottom:110px;
@@ -126,7 +126,7 @@ position:fixed;
       <li>education</li>
 	  <li><a href="https://brainpop.com">brainpop</a></li>
       <li><a href="https://office.com">office</a></li>
-      <li><a href="https://benhill.schoology.com/">schoology</a></li>
+      <li><a href="https://schoology.com/">schoology</a></li>
     </ul>
 		
 		<ul>
@@ -142,7 +142,11 @@ position:fixed;
 			<li><a href="https://reddit.com/r/196">r/196</a></li>
 		</ul>
 	</nav>
-	<img src="oikawa.jpg">
+	
+	<script src="javascript.js"></script>
+	
+	<img src="oikawa.jpg" onclick="newQuote()"/>
+	
 	<div class="oof">
 	<form action="https://google.com/search" method="GET">
   <label for="q">></label>
@@ -154,8 +158,8 @@ position:fixed;
 </form>
 	</div>
 </form>
-<div class="quote">
-<p>"we live in the future. everything's connected."</p>
+<div id="quoteDisplay">
+everything's connected.
 </div>
 </body>
 </html>
