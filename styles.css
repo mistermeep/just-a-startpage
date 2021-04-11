@@ -1,0 +1,130 @@
+@font-face {
+   font-family: LanaPixel;
+   src: url(LanaPixel.ttf);
+}
+
+* {
+   font-family: LanaPixel;
+}
+		html {
+			align-items: center;
+			color: #eef3f3;
+			display: flex;
+			font: 22px "LanaPixel", monospace;
+			height: 100%;
+			justify-content: center;
+			margin: 0;
+		}
+		body {
+			display: flex;
+			margin: 1em;
+			padding: 1em;
+			background-color: #202428;
+			}
+		h1 {
+			font-size: 2em;
+			grid-column: 1 / -1;
+			margin: 0;
+			text-align: center:
+		}
+		a {
+			color: inherit;
+			text-decoration: none;
+		}
+		a:focus,
+		a:hover {
+			color: #8dd5d9;
+		}
+		nav {
+			display: grid;
+			grid-row-gap: 1em;
+			grid-template-columns: 1fr 1fr;
+			margin: 0 lem;
+			min-width: 24em;
+			padding: 1em 0;
+		}
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			white-space: nowrap;
+		}
+		li:first-child {
+			font-weight: bold;
+			line-height: 2em;
+		}
+		#hm {
+			height: 361px;
+			width: 176px;
+			overflow: hidden;
+		}
+		img {
+			border: 2px solid #eef3f3;
+			height: 16.45em;
+			 margin-top: 25px;
+			object-fit: cover;
+			object-position: 50% 100%;
+			width: 8em;
+		}
+	form {
+  margin: 1em;
+  position: relative;
+}
+
+form input[type="search"] {
+  background-color: rgba(255, 255, 255, 0.95);
+  border: 2px solid #eef3f3;
+  box-sizing: border-box;
+  font: inherit;
+  width: 100%;
+}
+
+form label {
+  color: #8dd5d9;
+  left: -1em;
+  position: absolute;
+}
+
+form:focus-within input::placeholder {
+  opacity: 0;
+}
+
+#oof {
+  width:100%;
+
+     position:fixed;
+
+     bottom:176px;
+
+     text-align:center;
+	 width: 708px;
+}
+#quoteDisplay {
+position:fixed;
+
+     bottom:121px;
+
+     text-align:center;
+	 width: 682px;
+	 color: #8dd5d9;
+	 }
+#day {
+
+	position: fixed;
+	top:215px;
+	color: #8dd5d9;
+	font-size: 2em;
+	margin: 0;
+	text-align: center:
+	}
+.header {
+	color: #8dd5d9;
+}
+#time {
+	position: fixed;
+	top:215px;
+	right:620px;
+	color: #8dd5d9;
+	font-size: 2em;
+	margin: 0;
+	text-align: center:
