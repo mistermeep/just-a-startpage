@@ -89,7 +89,7 @@ var curr_day  = myDate.getDay();
 
 
 window.onload = function() {
-  document.getElementById("q").focus();
+  setFocus();
   var randomNumber = Math.floor(Math.random() * (quotes.length));
 	document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
 	document.getElementById('day').innerHTML = (d_names[curr_day] + ", " + m_names[curr_month] + " " +curr_date);
