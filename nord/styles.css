@@ -1,0 +1,145 @@
+@font-face {
+   font-family: test;
+   src: url(test.woff);
+}
+
+* {
+   font-family: test;
+}
+/* default dark theme */
+:root {
+	--background: #2e3440;
+	--search: #3b4252;
+	--text: #eceff4;
+}
+[theme="light"] {
+	--background: #eceff4;
+	--search: #e5e9f0;
+	--text: #2e3440;
+}
+		html {
+			align-items: center;
+			color: #eceff4;
+			display: flex;
+			font: 36px "test";
+			height: 100%;
+			justify-content: center;
+			margin: 0;
+			 width: 100%;
+		}
+		
+
+		body {
+			margin: 1em;
+			padding: 1em;
+			background-color: var(--background);
+			}
+		#greeting, #day {
+			text-align: center;
+			position: relative;
+			display: block;
+			font-size: 48px;
+		}
+	
+		ul {
+			border-radius: 25px;
+			list-style-type: none;
+			margin-top: 1em;
+			padding: .2em;
+			background-color:#3b4252;
+			display: inline-block;
+			width: 20%;
+			margin-left: .3em;
+			margin-right: .3em;
+			
+		}
+		form {
+			margin: 1em;
+			position: relative;
+			width:25em;
+		}
+
+		form input[type="search"] {
+			background-color: #3b4252;
+			border: 2px solid #3b4252;
+			box-sizing: border-box;
+			font: inherit;
+			width: 100%;
+		}
+
+		form label {
+			color: #5e81ac;
+			left: -1em;
+			position: absolute;
+		}
+		
+		#q {
+			color: #eceff4;
+			border-radius: 25px;
+			padding-left: .5em;
+			padding-right: .5em;
+		}
+		
+
+		form:focus-within input::placeholder {
+			opacity: 0;
+		}
+		form input[type="search"]:focus {
+			outline : none;
+		}
+		input {
+			caret-color:  #eceff4;
+		}
+		::-moz-placeholder {
+			color: #d8dee9;
+			opacity: 100;
+		}
+		::-webkit-input-placeholder {
+			color: #d8dee9;
+			opacity: 100;
+		}
+		:-ms-input-placeholder {
+			color: #d8dee9;
+			opacity: 100;
+		}
+		
+		input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+		
+		#header {
+			color: #bf616a;
+		}
+		#sec1 a:hover {
+			color: #bf616a;
+		}
+		a {
+			color: #d8dee9;
+			text-decoration: none;
+		}
+		#header, #sec1, #header2, #sec2, #header3, #sec3, #header4, #sec4 {
+			text-align: center;
+		}
+		
+		#header2 {
+			color: #d08770;
+		}
+		#sec2 a:hover {
+			color: #d08770;
+		}
+		
+		#header3 {
+			color: #ebcb8b;
+		}
+		#sec3 a:hover {
+			color: #ebcb8b;
+		}
+		
+		#header4 {
+			color: #a3be8c;
+		}
+		#sec4 a:hover {
+			color: #a3be8c;
+		}
+		
