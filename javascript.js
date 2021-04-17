@@ -44,8 +44,6 @@ var quotes = [
 	"Why BrainPOP is My Favorite Anime: a Video Essay",
 	"alRIGHT CAMPERS",
 	"i am constantly larping as tim from brainpop",
-	"a mask of my own face; i'd wear that",
-	"forget about your house of cards, and i'll do mine",
 	"catboy maid tim brainpop",
 	"welcome to ancapistan!",
 	"tim and moby are in LOVE",
