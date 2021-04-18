@@ -38,34 +38,34 @@ function setFocus(){
 
 $(document).ready(function() {
       $(document).bind('keydown', function(e) {
-        if (e.which == 65) {
+        if (e.shiftKey && e.which == 65) {
           window.location.href = "https://archiveofourown.org/";
         }
-        if (e.which == 68) {
+        if (e.shiftKey && e.which == 68) {
           window.location.href = "https://docstransfer.com/";
 		  }
-        if (e.which == 66) {
+        if (e.shiftKey && e.which == 66) {
           window.location.href = "https://brainpop.com/";
 		  }
-        if (e.which == 71) {
+        if (e.shiftKey && e.which == 71) {
           window.location.href = "https://github.com/";
 		  }
-        if (e.which == 67) {
+        if (e.shiftKey && e.which == 67) {
           window.location.href = "https://crunchyroll.com/";
 		  }
-        if (e.which == 83) {
+        if (e.shiftKey && e.which == 83) {
           window.location.href = "https://benhill.schoology.com/";
 		  }
-        if (e.which == 70) {
+        if (e.shiftKey && e.which == 70) {
           window.location.href = "https://office.com/";
 		  }
-        if (e.which == 82) {
+        if (e.shiftKey && e.which == 82) {
           window.location.href = "https://reddit.com/";
 		  }
-        if (e.which == 87) {
+        if (e.shiftKey && e.which == 87) {
           window.location.href = "https://twitter.com/";
 		  }
-        if (e.which == 86) {
+        if (e.shiftKey && e.which == 86) {
           window.location.href = "https://tumblr.com/";
         }
       });
