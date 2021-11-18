@@ -6,17 +6,6 @@
 * {
    font-family: Fantasque Sans Mono;
 }
-/* default dark theme */
-:root {
-	--background: #2e3440;
-	--search: #3b4252;
-	--text: #eceff4;
-}
-[theme="light"] {
-	--background: #eceff4;
-	--search: #e5e9f0;
-	--text: #2e3440;
-}
 		html {
 			align-items: center;
 			color: #eceff4;
