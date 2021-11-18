@@ -3,9 +3,16 @@
    src: url(FantasqueSansMono-Regular.ttf);
 }
 
+
 * {
    font-family: Fantasque Sans Mono;
 }
+:root {
+	--background: #2e3440;
+	--search: #3b4252;
+	--text: #eceff4;
+}
+
 		html {
 			align-items: center;
 			color: #eceff4;
