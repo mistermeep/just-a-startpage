@@ -1,5 +1,5 @@
 const username = "meep";
-const determineGreet = hours => document.getElementById("greeting").innerText = `good ${hours < 12 ? "morning!" : hours < 18 ? "afternoon!" : "evening!"}`;
+const determineGreet = hours => document.getElementById("greeting").innerText = `good ${hours < 12 ? "morning, " : hours < 18 ? "afternoon, " : "evening, "}` + username + '.';
 
 var m_names = ["january", "february", "march", 
 "april", "may", "june", "july", "august", "september", 
@@ -43,4 +43,5 @@ window.addEventListener('load', () => {
     let today = new Date();
     determineGreet(new Date().getHours());
     setTimeout(() => { document.getElementById("greeting").style.opacity = "1"; }, 100);
+	document.getElementById('day').innerHTML = "it is " + "<span style=color:#5e81ac>" + hour+":"+min+" " + mid + "</span>" + " on " + "<span style=color:#5e81ac>" + d_names[curr_day] + ", " + m_names[curr_month] + " " +curr_date + "</span>" + ".";
 })
