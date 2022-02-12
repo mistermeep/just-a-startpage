@@ -1,5 +1,5 @@
 const username = "meep";
-const determineGreet = hours => document.getElementById("greeting").innerText = `good ${hours < 12 ? "morning" : hours < 18 ? "afternoon" : "evening, "}` + username + '.';
+const determineGreet = hours => document.getElementById("greeting").innerText = `good ${hours < 12 ? "morning!" : hours < 18 ? "afternoon!" : "evening!"}`;
 
 var m_names = ["january", "february", "march", 
 "april", "may", "june", "july", "august", "september", 
