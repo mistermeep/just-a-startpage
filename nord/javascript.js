@@ -77,5 +77,5 @@ window.addEventListener('load', () => {
     let today = new Date();
     determineGreet(new Date().getHours());
     setTimeout(() => { document.getElementById("greeting").style.opacity = "1"; }, 100);
-	document.getElementById('day').innerHTML = "it is " + "<span style=color:#5e81ac>" + hour+":"+min+" " + mid + "</span>" + " on " + "<span style=color:#5e81ac>" + d_names[curr_day] + ", " + m_names[curr_month] + " " +curr_date + "</span>" + ".";
+
 })
