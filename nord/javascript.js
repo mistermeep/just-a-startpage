@@ -34,6 +34,40 @@ var curr_day  = myDate.getDay();
 function setFocus(){
 	document.getElementById("q").focus();
 }
+
+$(document).ready(function() {
+      $(document).bind('keydown', function(e) {
+        if (e.shiftKey && e.which == 65) {
+          window.location.href = "https://archiveofourown.org/";
+        }
+        if (e.shiftKey && e.which == 68) {
+          window.location.href = "https://docstransfer.com/";
+		  }
+        if (e.shiftKey && e.which == 66) {
+          window.location.href = "https://brainpop.com/";
+		  }
+        if (e.shiftKey && e.which == 71) {
+          window.location.href = "https://github.com/";
+		  }
+        if (e.shiftKey && e.which == 67) {
+          window.location.href = "https://crunchyroll.com/";
+		  }
+        if (e.shiftKey && e.which == 83) {
+          window.location.href = "https://benhill.schoology.com/";
+		  }
+        if (e.shiftKey && e.which == 70) {
+          window.location.href = "https://office.com/";
+		  }
+        if (e.shiftKey && e.which == 82) {
+          window.location.href = "https://reddit.com/";
+		  }
+        if (e.shiftKey && e.which == 87) {
+          window.location.href = "https://twitter.com/";
+		  }
+        if (e.shiftKey && e.which == 86) {
+          window.location.href = "https://tumblr.com/";
+        }
+      });
 });
 
 
